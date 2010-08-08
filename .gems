@@ -1,0 +1,6 @@
+rails --version 2.3.5
+rdiscount
+RedCloth
+will_paginate --version '~> 2.3.11'
+radiant
+
