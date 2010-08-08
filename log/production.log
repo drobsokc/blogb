@@ -1,0 +1,76 @@
+# Logfile created on Sat Aug 07 23:47:48 -0500 2010
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-07 23:47:54) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 41ms (View: 30, DB: 1) | 200 OK [http://localhost/admin/login]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-07 23:47:55) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/admin/login]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-07 23:48:07) [POST]
+  Parameters: {"username_or_email"=>"admin", "action"=>"login", "authenticity_token"=>"UtKnqLbJ6kdC0eOUG4dY0IO0G7D2z76HMS+GcidohRg=", "controller"=>"admin/welcome", "password"=>"[FILTERED]"}
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: users: SELECT * FROM "users" WHERE (login = 'admin' OR email = 'admin')  ORDER BY name LIMIT 1):
+  vendor/radiant/app/models/user.rb:49:in `authenticate'
+  vendor/radiant/app/controllers/admin/welcome_controller.rb:13:in `login'
+  vendor/radiant/vendor/plugins/haml/rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-08-08 00:56:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://localhost:3000/admin/pages
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-08-08 00:56:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/admin/pages]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-08 00:56:57) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/admin/login]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-08 00:57:05) [POST]
+  Parameters: {"username_or_email"=>"admin", "action"=>"login", "authenticity_token"=>"UtKnqLbJ6kdC0eOUG4dY0IO0G7D2z76HMS+GcidohRg=", "controller"=>"admin/welcome", "password"=>"[FILTERED]"}
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: users: SELECT * FROM "users" WHERE (login = 'admin' OR email = 'admin')  ORDER BY name LIMIT 1):
+  vendor/radiant/app/models/user.rb:49:in `authenticate'
+  vendor/radiant/app/controllers/admin/welcome_controller.rb:13:in `login'
+  vendor/radiant/vendor/plugins/haml/rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
