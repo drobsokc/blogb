@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+<div id="container">
+
+
+    <title>About</title>
+    <link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
+
+  <body>
+
+    <div id="navigation">
+  <ul>
+    <li class="button white medium"><a href="/">Home</a></li> <li class="button white medium"><a href="/about/">About</a></li>
+  </ul>
+
+</div>
+
+<div id="header">
+  <h1>About</h1>
+
+</div>
+
+  <div id="left_container">
+    <div id="content">
+      Hello
+      <div id="extended">
+        
+     </div>
+      </div>
+    </div>
+    <hr />
+<div id="footer">
+  <p>Powered by <a href="http://radiantcms.org/">Radiant CMS</a></p>
+</div>
+
+</div>
+  </body>
+</html>
