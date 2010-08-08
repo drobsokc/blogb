@@ -30626,3 +30626,1927 @@ Cache read: Radiant::Config
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (1.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+  [4;35;1mRadiant::Config Load (0.8ms)[0m   [0mSELECT * FROM "config" [0m
+Cache write: Radiant::Config
+Cache write: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-08-08 01:49:45) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (2.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+Redirected to http://localhost:3000/admin/pages
+Completed in 31ms (DB: 4) | 302 Found [http://localhost/admin/login]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-08-08 01:49:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mPage Load (1.6ms)[0m   [0mSELECT * FROM "pages" [0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering admin/pages/index
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+Rendered admin/pages/_header (71.9ms)
+Rendered admin/pages/_order_header (2.6ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 1) [0m
+Rendered admin/pages/_actions_column (62.8ms)
+Rendered admin/pages/_order (6.5ms)
+  [4;35;1mPage Load (1.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 8) [0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (55.9ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (74.7ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (49.7ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (175.3ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (53.8ms)
+Rendered admin/pages/_order (3.8ms)
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 4) ORDER BY position ASC[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 6) [0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (52.9ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (73.2ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (59.9ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (78.7ms)
+Rendered admin/pages/_node (228.1ms)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (48.8ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (68.6ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "pages" WHERE ("pages".parent_id = 7) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+Rendered admin/pages/_actions_column (49.8ms)
+Rendered admin/pages/_order (3.8ms)
+Rendered admin/pages/_node (66.7ms)
+Rendered admin/pages/_node (885.5ms)
+Completed in 1236ms (View: 1197, DB: 11) | 200 OK [http://localhost/admin/pages]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-08-08 01:49:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mAsset Load (0.2ms)[0m   [0mSELECT * FROM "assets" [0m
+  [4;36;1mAsset Load (0.3ms)[0m   [0;1mSELECT * FROM "assets" ORDER BY created_at DESC LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering admin/assets/index
+Rendered admin/assets/_asset_table (20.4ms)
+Rendered admin/assets/_bucket (3.4ms)
+Rendered admin/assets/_bucket (3.1ms)
+Rendered admin/assets/_assets_container (40.1ms)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+Completed in 294ms (View: 266, DB: 4) | 200 OK [http://localhost/admin/assets]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:49:53) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["stylesheets", "admin", "assets.css"], "controller"=>"site"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (1.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (4.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (2.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."slug" = 'stylesheets') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mPage Load (1.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mLayout Load (0.4ms)[0m   [0mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;36;1mSnippet Load (0.4ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;35;1mPagePart Load (0.4ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;36;1mPagePart Load (0.4ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mPagePart Load (0.3ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mSnippet Load (0.4ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 910ms (DB: 22) | 404 [http://localhost/stylesheets/admin/assets.css]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:49:54) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["javascripts", "admin", "assets.js"], "controller"=>"site"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."slug" = 'javascripts') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mPage Load (1.2ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mLayout Load (0.4ms)[0m   [0;1mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;35;1mSnippet Load (0.4ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;36;1mPagePart Load (0.4ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;35;1mPagePart Load (0.3ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mPagePart Load (0.3ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mSnippet Load (0.3ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 365ms (DB: 14) | 404 [http://localhost/javascripts/admin/assets.js]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+  [4;35;1mRadiant::Config Load (0.8ms)[0m   [0mSELECT * FROM "config" [0m
+Cache write: Radiant::Config
+Cache write: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-08-08 01:59:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mAsset Load (0.2ms)[0m   [0;1mSELECT * FROM "assets" [0m
+  [4;35;1mAsset Load (0.3ms)[0m   [0mSELECT * FROM "assets" ORDER BY created_at DESC LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering admin/assets/index
+Rendered admin/assets/_asset_table (20.5ms)
+Rendered admin/assets/_bucket (3.8ms)
+Rendered admin/assets/_bucket (3.5ms)
+Rendered admin/assets/_assets_container (43.7ms)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+Completed in 223ms (View: 195, DB: 4) | 200 OK [http://localhost/admin/assets]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:59:36) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["stylesheets", "admin", "assets.css"], "controller"=>"site"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (5.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."slug" = 'stylesheets') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mPage Load (1.5ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mLayout Load (0.4ms)[0m   [0;1mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;35;1mSnippet Load (0.4ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;36;1mPagePart Load (0.5ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;35;1mPagePart Load (0.4ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mPagePart Load (0.3ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mSnippet Load (0.5ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 867ms (DB: 21) | 404 [http://localhost/stylesheets/admin/assets.css]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:59:38) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["javascripts", "admin", "assets.js"], "controller"=>"site"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."slug" = 'javascripts') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mPage Load (1.1ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mLayout Load (0.3ms)[0m   [0mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;36;1mSnippet Load (0.6ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;35;1mPagePart Load (0.4ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;36;1mPagePart Load (0.3ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mPagePart Load (0.3ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mSnippet Load (0.3ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 455ms (DB: 13) | 404 [http://localhost/javascripts/admin/assets.js]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-08-08 01:59:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mAsset Load (0.2ms)[0m   [0;1mSELECT * FROM "assets" [0m
+  [4;35;1mAsset Load (0.2ms)[0m   [0mSELECT * FROM "assets" ORDER BY created_at DESC LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering admin/assets/index
+Rendered admin/assets/_asset_table (6.7ms)
+Rendered admin/assets/_bucket (0.5ms)
+Rendered admin/assets/_bucket (0.4ms)
+Rendered admin/assets/_assets_container (8.9ms)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+Completed in 100ms (View: 73, DB: 4) | 200 OK [http://localhost/admin/assets]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:59:40) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["stylesheets", "admin", "assets.css"], "controller"=>"site"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (1.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."slug" = 'stylesheets') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mPage Load (1.3ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mPage Load (3.4ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mLayout Load (2.4ms)[0m   [0;1mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;35;1mSnippet Load (0.5ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;36;1mPagePart Load (0.5ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;35;1mPagePart Load (0.3ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mPagePart Load (0.3ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mSnippet Load (0.4ms)[0m   [0mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 810ms (DB: 22) | 404 [http://localhost/stylesheets/admin/assets.css]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-08-08 01:59:42) [GET]
+  Parameters: {"action"=>"show_page", "url"=>["javascripts", "admin", "assets.js"], "controller"=>"site"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) ORDER BY name[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."parent_id" IS NULL) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."slug" = 'javascripts') AND ("pages".parent_id = 1) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mPage Load (1.2ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY position ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages".parent_id = 1 AND (status_id = 100 and (class_name = 'FileNotFoundPage'))) ORDER BY position ASC LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "pages" WHERE ("pages"."id" = 1) [0m
+  [4;35;1mLayout Load (0.4ms)[0m   [0mSELECT * FROM "layouts" WHERE ("layouts"."id" = 1) ORDER BY name[0m
+  [4;36;1mSnippet Load (0.4ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'header') ORDER BY name LIMIT 1[0m
+  [4;35;1mPagePart Load (0.5ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY id, name[0m
+  [4;36;1mPagePart Load (0.3ms)[0m   [0;1mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'body') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;35;1mPagePart Load (0.3ms)[0m   [0mSELECT * FROM "page_parts" WHERE ("page_parts"."name" = 'extended') AND ("page_parts".page_id = 2) ORDER BY id LIMIT 1[0m
+  [4;36;1mSnippet Load (0.3ms)[0m   [0;1mSELECT * FROM "snippets" WHERE ("snippets"."name" = 'footer') ORDER BY name LIMIT 1[0m
+Completed in 461ms (DB: 14) | 404 [http://localhost/javascripts/admin/assets.js]
+DEPRECATION WARNING: define_routes has been deprecated in favor of your extension's config/routes.rb. (called from /Users/kingduggan1/railsapps/blogb/vendor/extensions/reorder/reorder_extension.rb:9)
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Cache read: Radiant.cache_mtime
+Cache read: Radiant::Config
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
