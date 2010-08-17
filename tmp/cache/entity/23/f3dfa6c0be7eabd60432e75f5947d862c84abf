@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+
+
+
+    <title>About</title>
+    <link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
+
+  <body>
+<div id="container">
+
+    <div id="navigation">
+  <ul>
+    <li class="button medium "><a href="/">Home</a></li> <li class="button here medium"><a href="/about/">About</a></li>
+  </ul>
+
+</div>
+
+<div id="header">
+  <h1>About</h1>
+
+</div>
+
+  <div id="left_container">
+    <div id="content">
+      <p><img src="http://www.gravatar.com/avatar.php?gravatar_id=4f501017b11a1e619944629a545e80a1&amp;rating=G&amp;size=256" /><strong>I am:</strong> a boyfriend to <a href="http://twitter.com/jenolicious">jenolicious</a>, brother,uncle, ruby/rails enthusiast, student , and on a mission to creating a web application that will conquer the world. </p>
+
+<p><strong>I Do:</strong> CSS, Ruby/Rails, dabble in all creative suite products, love the use of JQuery, and prefer any open source OS or language over MS any day.</p>
+
+<p><strong>I Like:</strong> Sugar free energy drinks, rails plug ins, <a href="http://okccoco.com/">collaborative coding</a>, solving problems with computers through simple solutions, golf, traveling (something I wish I did more of), tech start-ups, and the Sooners.</p>
+
+<p><strong>I Think:</strong> All aspects of web application development from the style sheet to the database structure is critical in order to make it successful. Although releasing an app at an early stage isn&rsquo;t necessarily a bad thing in order to see where improvements need to be made.            </p>
+
+<h1>Disclaimer:</h1>
+
+<p><em>The post on this site are my personal thoughts and opinions. They are not associated or approved by Quail Creek Bank in anyway.</em> </p>
+
+      <div id="extended">
+        
+     </div>
+  
+      </div>
+    </div>
+<div id="right_container">
+<dl>
+  <dt>find me @</dt>
+  <dd><img alt="twittericon" src="/assets/3/1282080565_twitter.png" /><a href="http://twitter.com/kingduggan">kingduggan</a> </dd>
+  <dd><img alt="gowallaicon" src="/assets/4/gowalla.png" /><a href="http://gowalla.com/drobsokc">drobsokc</a></dd>
+  <dd><img alt="githubicon" src="/assets/6/github_32.png" /><a href="http://github.com/kingduggan1">kingduggan1</a></dd>
+</dl>
+
+</div>
+
+</div>
+
+
+  </body>
+</html>
