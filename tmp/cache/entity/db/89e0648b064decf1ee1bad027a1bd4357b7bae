@@ -46,12 +46,15 @@
       </div>
     </div>
 <div id="right_container">
-<dl>
-  <dt>find me @</dt>
-  <dd><img alt="twittericon" src="/assets/3/1282080565_twitter.png" /><a href="http://twitter.com/kingduggan">kingduggan</a> </dd>
-  <dd><img alt="gowallaicon" src="/assets/4/gowalla.png" /><a href="http://gowalla.com/drobsokc">drobsokc</a></dd>
-  <dd><img alt="githubicon" src="/assets/6/github_32.png" /><a href="http://github.com/kingduggan1">kingduggan1</a></dd>
-</dl>
+<div class="socialmedia">
+  <h3>find me @</h3>
+
+  <ul>
+    <li><img alt="twittericon" src="/assets/3/1282080565_twitter.png" /><a href="http://twitter.com/kingduggan">kingduggan</a> </li>
+    <li><img alt="gowallaicon" src="/assets/4/gowalla.png" /><a href="http://gowalla.com/drobsokc">drobsokc</a></li>
+    <li><img alt="githubicon" src="/assets/6/github_32.png" /><a href="http://github.com/kingduggan1">kingduggan1</a></li>
+  </ul>
+</div>
 
 </div>
 
